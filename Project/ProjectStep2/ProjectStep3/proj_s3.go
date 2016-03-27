@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	tpl, err := template.ParseFiles("index3.html")
+	tpl, err := template.ParseFiles("projs3.html")
 	if err != nil {
 		log.Fatalln(err)
 	}
