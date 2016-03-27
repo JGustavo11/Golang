@@ -8,7 +8,7 @@ import (
 
 
 func serve_the_webpage(res http.ResponseWriter, req *http.Request) {
-	tpl, err := template.ParseFiles("index1.html")
+	tpl, err := template.ParseFiles("proj1.html")
 	if err != nil {
 		log.Fatalln(err)
 	}
